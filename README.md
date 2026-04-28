@@ -1,6 +1,6 @@
 # 🧠 3D Brain Tumor Segmentation using Swin UNETR
 
-📄 **[Click here to read the full Technical Report (PDF)](Project_Report.pdf)**
+📄 **[Click here to read the full Technical Report (PDF)](docs/Project_Report.pdf)**
 
 ## 📌 Project Overview
 This project implements a high-precision 3D automatic segmentation system for brain tumors (WT, NCR, ED, ET) utilizing the **BraTS 2021** challenge dataset (1,666 multi-modal MRI scans). The core architecture is based on **Swin UNETR**, which leverages multi-layer windowed self-attention mechanisms for robust feature extraction.
@@ -18,7 +18,7 @@ This project implements a high-precision 3D automatic segmentation system for br
 ## 📊 Results & Metrics
 The model demonstrated excellent convergence and stability after 10 epochs. The loss steadily decreased, while the validation mean Dice coefficients plateaued at optimal levels.
 
-![Metrics: Loss and Dice Score](metrics_loss_dice.png)
+![Metrics: Loss and Dice Score](assets/metrics_loss_dice.png)
 
 **Final Validation Mean Dice Scores:**
 * **WT (Whole Tumor):** ~0.78 (Outstanding segmentation of the entire tumor region)
@@ -30,9 +30,9 @@ The following gallery demonstrates the model's inference performance across diff
 
 | Test Case 01 | Test Case 02 |
 | :---: | :---: |
-| ![Case 1](result_case_01.png) | ![Case 2](result_case_02.png) |
+| ![Case 1](assets/result_case_01.png) | ![Case 2](assets/result_case_02.png) |
 | **Test Case 03** | **Test Case 04** |
-| ![Case 3](result_case_03.png) | ![Case 4](result_case_04.png) |
+| ![Case 3](assets/result_case_03.png) | ![Case 4](assets/result_case_04.png) |
 
 ## 📂 Repository Structure
 - `train_evaluate.py`: The complete training, validation, and inference pipeline.
