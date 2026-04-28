@@ -37,3 +37,4 @@ The following gallery demonstrates the model's inference performance across diff
 ## 📂 Repository Structure
 - `train_evaluate.py`: The complete training, validation, and inference pipeline.
 - `Project_Report.pdf`: Comprehensive documentation including detailed experimental setup and evaluation.
+*(Disclaimer: The BraTS dataset is not included in this repository due to size constraints. Please download it from the official MICCAI BraTS challenge website.)*
